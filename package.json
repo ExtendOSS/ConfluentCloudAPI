@@ -1,5 +1,5 @@
 {
-  "name": "@extend/confluent-api",
+  "name": "@helloextend/confluent-api",
   "version": "0.0.1",
   "description": "A Simple Confluent Cloud API Tool for IAC",
   "homepage": "https://github.com/extendoss/confluentcloudapi#readme",
@@ -17,7 +17,7 @@
     "changelog": "pnpm auto-changelog",
     "clean:dist": "rm -rf ./dist",
     "lint": "eslint --cache --cache-location ./node_modules/.eslintcache --ext=.ts,.js ./src",
-    "prepare": "husky install && pnpm build",
+    "prepare": "pnpm build",
     "preversion": "pnpm build",
     "test": "pnpm jest --coverage",
     "typecheck": "NODE_OPTIONS=--max-old-space-size=15360 tsc --noEmit"
@@ -47,7 +47,6 @@
     "eslint-plugin-import": "^2.28.0",
     "eslint-plugin-jsdoc": "46.4.6",
     "eslint-plugin-prettier": "^5.0.0",
-    "husky": "8.0.3",
     "jest": "29.6.2",
     "lint-staged": "^15.2.2",
     "prettier": "^3.0.1",
