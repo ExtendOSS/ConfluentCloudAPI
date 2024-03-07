@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["./src"],
+  "exclude": ["src/**/*.test.*", "**/*.int.ts",],
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "noEmit": false,
+    "outDir": "dist",
+    "target": "ES2022"
+  }
+}
