@@ -21,4 +21,4 @@ Mostly this is used to help build out infrastructural tooling. For example, you 
 
 ## Todo
 
-Kinda everything. But mostly build a great readme before open sourcing it and remove all the internal extend stuff.
+Kinda everything. But mostly build a great readme before open sourcing it(whoops too late).
