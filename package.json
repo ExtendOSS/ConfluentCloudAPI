@@ -1,5 +1,5 @@
 {
-  "name": "@helloextend/confluent-api",
+  "name": "@helloextend/confluent-cloud-api",
   "version": "0.0.1",
   "description": "A Simple Confluent Cloud API Tool for IAC",
   "homepage": "https://github.com/extendoss/confluentcloudapi#readme",
